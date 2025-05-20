@@ -1,6 +1,6 @@
-# Personal Portfolio Website
+# Portfolio
 
-A modern, responsive portfolio website built with HTML, CSS, and JavaScript.
+Responsive Portfolio Website Using HTML, CSS and JavaScript, with a beautiful user interface.
 
 ## Features
 
@@ -22,7 +22,7 @@ A modern, responsive portfolio website built with HTML, CSS, and JavaScript.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/anshul098yu/Portfolio.git
 ```
 
 2. Open `index.html` in your browser to view the website.
@@ -51,4 +51,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-For any questions or suggestions, please reach out through the contact form on the website. 
+For any questions or suggestions, please reach out through the contact form on the website.
