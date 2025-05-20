@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="profile-container">
+                <div class="profile-image">
+                    <img src="anshul.jpg" alt="My Profile Picture" id="profile-pic">
+                </div>
+                <div class="profile-info">
+                    <h2 class="greeting">Hi, I'm Anshul</h2>
+                    <h1>Welcome to My Portfolio</h1>
+                    <p>I'm a web developer passionate about creating beautiful websites.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p class="about-description">I am a passionate Full Stack Developer currently pursuing my B.Tech in
+                    Computer Science at BIT Mesra. With a strong foundation in both frontend and backend technologies, I
+                    specialize in building responsive and user-friendly web applications using the MERN stack. My
+                    experience includes developing e-commerce platforms and task management systems, where I've
+                    implemented features like real-time updates, user authentication, and secure payment integration.
+                </p>
+
+                <div class="skills">
+                    <h3>My Skills</h3>
+                    <ul id="skills-list">
+                        <li>Java</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Git & GitHub</li>
+                        <li>Node.js</li>
+                        <li>React.js</li>
+                        <li>Next.js</li>
+                        <li>Express.js</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="section">
+            <h2>Resume</h2>
+            <a href="Anshul_Resume 2025.pdf" class="resume-btn" download>Download Resume</a>
+            <div class="resume-content">
+                <div class="resume-section">
+                    <h3>Education</h3>
+                    <div class="resume-item">
+                        <h4>Bachelor of Technology in Computer Science</h4>
+                        <p class="institution">Bit Mesra</p>
+                        <p class="year">2022- 2026</p>
+                        <p>CGPA: 8/10</p>
+                    </div>
+                </div>
+
+                <div class="resume-section">
+                    <h3>Experience</h3>
+                    <div class="resume-item">
+                        <h4>Web Development Intern</h4>
+                        <p class="institution">MentaMind</p>
+                        <p class="year">June 2024 - July 2024</p>
+                        <ul class="responsibilities">
+                            <li>Developed responsive websites using HTML, CSS, JavaScript, Next.js, Express, and MongoDB
+                            </li>
+                            <li>Collaborated with team members on various projects</li>
+                            <li>Implemented modern web design principles</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="resume-section">
+                    <h3>Technical Skills</h3>
+                    <div class="resume-item">
+                        <ul class="responsibilities">
+                            <li><strong>Languages:</strong> JavaScript, Python, C++</li>
+                            <li><strong>Frontend:</strong> HTML5, CSS3, React.js, Next.js</li>
+                            <li><strong>Backend:</strong> Node.js, Express.js</li>
+                            <li><strong>Database:</strong> MongoDB, MySQL</li>
+                            <li><strong>Tools:</strong> Git, VS Code, Postman</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="resume-section">
+                    <h3>Projects</h3>
+                    <div class="resume-item">
+                        <h4>E-Commerce Platform</h4>
+                        <ul class="responsibilities">
+                            <li>Built a full-stack e-commerce application using MERN stack</li>
+                            <li>Implemented user authentication and payment integration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>My Projects</h2>
+            <div class="projects-grid" id="projects-container">
+                <div class="project-card">
+                    <h3>E-Commerce Platform with Auction Feature</h3>
+                    <p class="project-description">A full-stack e-commerce application built with MERN stack, featuring
+                        user authentication, product management, and secure payment integration.</p>
+                    <div class="project-tech">
+                        <span>MongoDB</span>
+                        <span>Express.js</span>
+                        <span>React.js</span>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://growmarketbackend.onrender.com/" class="project-link">Live Demo</a>
+                        <a href="https://github.com/anshul098yu/Grow-Market" class="project-link">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>MentaMind - Task Management System </h3>
+                    <p class="project-description">A real-time task management application with drag-and-drop
+                        functionality, user authentication, and team collaboration features.</p>
+                    <div class="project-tech">
+                        <span>React.js</span>
+                        <span>Firebase</span>
+                        <span>Material-UI</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://mentamind.in/" class="project-link">Live Demo</a>
+                        <a href="https://github.com/anshul098yu/Menta-Mind" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Call me</h3>
+                        <p><a href="tel:+916205474281">(+91) 6205474281</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>E-mail</h3>
+                        <p><a href="mailto:anshulraj6205474281@gmail.com">anshulraj6205474281@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Location</h3>
+                        <p>Bit Mesra, Ranchi</p>
+                    </div>
+                </div>
+                <form id="contact-form">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
