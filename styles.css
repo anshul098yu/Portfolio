@@ -48,7 +48,7 @@ nav ul li a:hover {
     align-items: center;
 }
 
-/* Profile Section Styles */
+
 .profile-container {
     display: flex;
     align-items: center;
@@ -96,7 +96,7 @@ nav ul li a:hover {
     background-color: #2980b9;
 }
 
-/* Resume Section Styles */
+
 .resume-content {
     max-width: 800px;
     width: 100%;
