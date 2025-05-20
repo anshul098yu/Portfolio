@@ -17,7 +17,7 @@ contactForm.addEventListener('submit', function (e) {
     const message = document.getElementById('message').value;
 
     // Simple form validation
-    if (name && email && message) {
+    if (name && email && message){
         alert('Thank you for your message! I will get back to you soon.');
         contactForm.reset();
     }
